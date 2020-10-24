@@ -1,0 +1,235 @@
+/*TITRE*/
+
+h1 {
+  width: 270px;
+  height: 34px;
+  margin-left: 31px;
+  padding-top: 13px;
+  font-family: 'PT Mono', monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  color:white;
+}
+.rectangle {
+  width: 332px;
+  height: 60px;
+  margin-left: 554px;
+  margin-top: 40px;
+  background-color: black;
+  border-radius: 10px;
+}
+body {
+  width: 1440px;
+  height: 768px;
+  background: linear-gradient(135deg, #FF9D6C 0%, #BB4E75 100%);
+}
+
+
+/*PIANO*/
+
+.bloc_piano {
+  position: absolute;
+  width: 531px;
+  height: 276px;
+  margin-left: 454px;
+  margin-top: 388px;
+  bottom: 104px;
+  background: black;
+  border-radius: 10px;
+  filter: drop-shadow(0px 12px 80px rgba(0, 0, 0, 0.3));
+}
+
+#C {
+  position: absolute;
+  width: 69px;
+  height: 252px;
+  margin-top: 12px;
+  margin-left: 12px;
+  background-color: white;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#C:active {
+  background-color: #ffd12d;
+}
+
+#D {
+  position: absolute;
+  width: 69px;
+  height: 252px;
+  margin-top: 12px;
+  margin-left: 85px;
+  background-color: white;
+}
+
+#D:active {
+  background-color: #ffd12d;
+}
+
+#E {
+  position: absolute;
+  width: 69px;
+  height: 252px;
+  margin-top: 12px;
+  margin-left: 158px;
+  background-color: white;
+}
+
+#E:active {
+  background-color: #ffd12d;
+}
+
+#F {
+  position: absolute;
+  width: 69px;
+  height: 252px;
+  margin-top: 12px;
+  margin-left: 231px;
+  background-color: white;
+}
+
+#F:active {
+  background-color: #ffd12d;
+}
+
+#G {
+  position: absolute;
+  width: 69px;
+  height: 252px;
+  margin-top: 12px;
+  margin-left: 304px;
+  background-color: white;
+}
+
+#G:active {
+  background-color: #ffd12d;
+}
+
+#A {
+  position: absolute;
+  width: 69px;
+  height: 252px;
+  margin-top: 12px;
+  margin-left: 377px;
+  background-color: white;
+}
+
+#A:active {
+  background-color: #ffd12d;
+}
+
+#B {
+  position: absolute;
+  width: 69px;
+  height: 252px;
+  margin-top: 12px;
+  margin-left: 450px;
+  background-color: white;
+  border-radius: 0px 5px 5px 0px;
+}
+
+#B:active {
+  background-color: #ffd12d;
+}
+
+#CD {
+  position: absolute;
+  width: 30px;
+  height: 184px;
+  margin-top: 12px;
+  margin-left: 68px;
+  background-color: black;
+  border-radius: 0px 0px 5px 5px;
+}
+
+#CD:active {
+  background-color: #E6016F;
+}
+
+#DD {
+  position: absolute;
+  width: 30px;
+  height: 184px;
+  margin-top: 12px;
+  margin-left: 141px;
+  background-color: black;
+  border-radius: 0px 0px 5px 5px;
+}
+
+#DD:active {
+  background-color: #E6016F;
+}
+
+#FD {
+  position: absolute;
+  width: 30px;
+  height: 184px;
+  margin-top: 12px;
+  margin-left: 287px;
+  background-color: black;
+  border-radius: 0px 0px 5px 5px;
+}
+
+#FD:active {
+  background-color: #E6016F;
+}
+
+#GD {
+  position: absolute;
+  width: 30px;
+  height: 184px;
+  margin-top: 12px;
+  margin-left: 360px;
+  background-color: black;
+  border-radius: 0px 0px 5px 5px;
+}
+
+#GD:active {
+  background-color: #E6016F;
+}
+
+#AD {
+  position: absolute;
+  width: 30px;
+  height: 184px;
+  margin-top: 12px;
+  margin-left: 433px;
+  background-color: black;
+  border-radius: 0px 0px 5px 5px;
+}
+
+#AD:active {
+  background-color: #E6016F;
+}
+
+
+/*NOTES*/
+
+.notes {
+  position: absolute;
+  width: 462px;
+  height: 22px;
+  margin-top: 712px;
+  bottom: 34px;
+  margin-left: 488px;
+  word-spacing: 35px;
+  font-family: 'PT Mono', monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+
+/*EMOJIS*/
+
+#emoji {
+  width: 200px;
+  height: 200px;
+  margin-left: 620px;
+  margin-top: 50px;
+}
